@@ -1,0 +1,65 @@
+# This is the main configuration file for Mohist.
+# As you can see, there's tons to configure. Some options may impact gameplay, so use 
+# with caution, and make sure you know what each option does before configuring.
+# For a reference for any variable inside this file, check out the Mohist wiki at
+# https://wiki.mohistmc.com/
+# If you need help with the configuration or have any questions related to Spigot,
+# join us at the Discord or drop by our forums and leave a post.
+# Discord: https://discord.gg/mohistmc
+# Forums: https://mohistmc.com/
+# Forums (CN): https://mohistmc.cn/
+
+max-bees-in-hive: 3
+enchantment-table-book-animation-tick: false
+mohist:
+  vanilla_lang: en_us
+  libraries_downloadsource: MOHIST
+  check_update: true
+  lang: xx_XX
+  custom_flags: aaaa bbbb
+  check_libraries: true
+  disable_mods_blacklist: false
+  disable_plugins_blacklist: false
+  check_update_auto_download: false
+  use_custom_java11: false
+  show_logo: true
+  optimize_explosions: true
+  prevent_from_entering_unloaded_chunks: true
+  forge_ignore_optional_mods_version_check: false
+  ignore_empty_time: all_worlds
+  chunk_unload_delay: 5
+  enable_worldedit_fix: true
+  networkmanager:
+    debug: false
+    intercept: []
+libraries_black_list: aaaaa;bbbbbb
+config-version: 1
+anvilfix:
+  maximumrepaircost: 40
+  enchantment_fix: false
+  max_enchantment_level: 32767
+player_modlist_blacklist:
+  enable: false
+  list: []
+server_modlist_whitelist:
+  enable: false
+  list: '[dungeonsmod, blue_skies, opotato, dimensionalsycnfixes, obsidianui, betternether,
+    stalwart_dungeons, strawgolem, kleeslabs, insanelib, terraforged, citadel, alexsmobs,
+    lootintegrations, farmersdelightintegrations, upgradednetherite_items, mutantbeasts,
+    bookshelf, fabrication, guardvillagers, takesapillage, progressivebosses, bygonenether,
+    carryon, shieldexp, twilightforest, konkrete, embeddium, rubidium, betterendforge,
+    upgradednetherite, structure_gel, chocolate, farmersdelight, repurposed_structures,
+    morevillagers, biomesoplenty, endrem, dungeons_plus, cnb, randomenchants, cataclysm,
+    curios, patchouli, collective, elevatorid, tombstone, mutantmore, architectury,
+    cloth-config, the_bumblezone, fallingtree, scalinghealth, disenchanting, voidtotem,
+    kiwi, mowziesmobs, geckolib3, vanillaexcavators, jei, itemfilters, attributefix,
+    conjurer_illager, abnormals_core, copperpot, buzzier_bees, goblintraders, caelus,
+    noaddrepcost, waystones, fullstackwatchdog, clumps, journeymap, fastasyncworldsave,
+    travelersbackpack, libx, dungeoncrawl, curioofundying, badmobs, iceandfire, crumbs,
+    forge, culturaldelights, tlskincape, chococraft, dungeons_arise, useless_sword,
+    minecraft, upgrade_aquatic, ba_bt, silentlib, morevanillalib, jade, waila, savageandravage,
+    kryptonreforged, autoreglib, abnormals_delight, securitycraft, vanillahammers,
+    combustivefishing, upgradedcore, coroutil, hunterillager, illagersweararmor, nethers_delight,
+    ferritecore, upgradednetherite_ultimate, puzzleslib, justzoom, byg, aquaculture]'
+forge:
+  hidejoinmodslist: false

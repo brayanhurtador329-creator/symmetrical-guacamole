@@ -1,0 +1,10 @@
+
+[BlueSkiesExtraConfig]
+	itemToTradeZealLighter = "minecraft:emerald"
+	#Range: > 1
+	gateKeeperHouseSpacing = 18
+	allowEveryModFeatureGenInTheDims = false
+	enableDimensionalNerf = true
+	#If enabled, armors and weapons from other mods should be totally useless in blue skies dimensions
+	enableEnhancedDimensionalNerf = false
+
